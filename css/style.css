@@ -1,0 +1,343 @@
+
+
+.neighbourhood{
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.sky{
+    background-color:skyblue;
+    height: 750px;
+    min-width: 100%;
+    margin: -8px -8px -50px -8px;
+    padding: 550px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+
+.ground{
+    background-color:chartreuse;
+    height: 264px;
+    min-width: 100%;
+    margin:0px -8px -50px -8px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.static_house *{
+    position: static;
+}
+
+
+.static_house{
+    position: static;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+
+.static_house .roof{
+    width: 200px;
+    border-bottom: solid 60px brown;
+    border-left: solid 60px rgba(0, 0, 0, 0);
+    border-right: solid 60px rgba(0, 0, 0, 0);
+}
+
+
+
+.static_house .front_wall{
+    background-color:burlywood;
+    width: 200px;
+    height: 90px;
+    margin: 0px 0px 0px 60px;
+    padding: 10px 30px 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.static_house .window{
+    background-color:lightblue;
+    border: solid 2px white;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.static_house .door{
+    background-color:chocolate;
+    border: solid 1px black;
+    width: 30px;
+    height: 65px;
+    margin:-40px 0px 0px 90px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+
+
+
+.relative_house *{
+    position: relative;
+}
+
+
+.relative_house{
+    position: relative;
+    margin: -150px 0px 0px 370px;
+    box-sizing: border-box;
+}
+
+
+.relative_house .roof{
+    width: 200px;
+    border-bottom: solid 60px firebrick;
+    border-left: solid 60px rgba(0, 0, 0, 0);
+    border-right: solid 60px rgba(0, 0, 0, 0);
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+
+.relative_house .front_wall{
+    background-color:darkorange;
+    width: 200px;
+    height: 90px;
+    margin: 0px 0px 0px 60px;
+    padding: 10px 30px 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.relative_house #win_1{
+    background-color:lightblue;
+    border: solid 2px white;
+    width: 25px;
+    height: 50px;
+    margin: -70px 0px 0px 60px;
+    border-radius: 30px 30px 10px 10px;
+}
+
+.relative_house #win_2{
+    background-color:lightblue;
+    border: solid 2px white;
+    width: 25px;
+    height: 50px;
+    margin: -55px 0px 0px 120px;
+    border-radius: 30px 30px 10px 10px;
+}
+
+
+.relative_house .door{
+    background-color:chocolate;
+    border: solid 1px brown;
+    width: 30px;
+    height: 65px;
+    margin: 12px 0px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+
+
+
+
+
+.absolute_house *{
+    position: absolute;
+}
+
+
+.absolute_house{
+    position: absolute;
+    margin: -170px 0px 0px 760px;
+    box-sizing: border-box;
+}
+
+
+.absolute_house .roof{
+    width: 220px;
+    border-bottom: solid 80px darkred;
+    border-left: solid 40px rgba(0, 0, 0, 0);
+    border-right: solid 40px rgba(0, 0, 0, 0);
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.absolute_house .front_wall{
+    background-color:cadetblue;
+    width: 220px;
+    height: 90px;
+    margin: 80px 0px 0px 40px;
+    padding: 10px 30px 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.absolute_house .window{
+    background-color:deepskyblue;
+    border: solid 2px black;
+    width: 30px;
+    height: 50px;
+    
+}
+
+
+.absolute_house .door{
+    background-color:black;
+    width: 30px;
+    height: 65px;
+    margin: 15px 0px 0px 90px;
+}
+
+
+
+
+
+
+
+
+
+
+.fixed_house *{
+    position: fixed;
+}
+
+
+
+.fixed_house{
+    position: fixed;
+    margin: -140px 0px 0px 1110px;
+    box-sizing: border-box;
+}
+
+
+.fixed_house .roof{
+    width: 200px;
+    border-bottom: solid 50px crimson;
+    border-left: solid 70px rgba(0, 0, 0, 0);
+    border-right: solid 70px rgba(0, 0, 0, 0);
+}
+
+
+
+.fixed_house .front_wall{
+    background-color:wheat;
+    width: 200px;
+    height: 90px;
+    margin: 50px 0px 0px 70px;
+    padding: 10px 30px 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.fixed_house #win_1{
+    background-color:aqua;
+    border: solid 2px crimson;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px 100px 100px 100px;
+    margin: 0px 0px 0px -10px;
+}
+
+.fixed_house #win_2{
+    background-color:aqua;
+    border: solid 2px crimson;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px 100px 100px 100px;
+    margin: 0px 0px 0px 110px;
+}
+
+
+.fixed_house .door{
+    background-color:crimson;
+    border: solid 1px black;
+    width: 30px;
+    height: 65px;
+    margin: 12px 0px 0px 55px;
+}
+
+
+
+
+
+
+
+
+
+.sticky_house *{
+    position:sticky;
+}
+
+
+.sticky_house{
+    position: sticky;
+    margin: -230px 0px 0px 1500px;
+    box-sizing: border-box;
+}
+
+
+.sticky_house .roof{
+    width: 300px;
+    height: 0px;
+    border-bottom: solid 100px darkslategray;
+    border-left: solid 50px rgba(0, 0, 0, 0);
+    border-right: solid 50px rgba(0, 0, 0, 0);
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+
+.sticky_house .front_wall{
+    background-color:green;
+    width: 200px;
+    height: 90px;
+    margin: 0px 0px 0px 50px;
+    padding: 10px 30px 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.sticky_house .window{
+    background-color:lightblue;
+    border: solid 2px white;
+    width: 25px;
+    height: 60px;
+    margin: 0px 0px 0px 90px;
+}
+
+
+.sticky_house .roof .window{
+    background-color:lightblue;
+    border: solid 2px white;
+    width: 20px;
+    height: 30px;
+    margin: 50px 0px 0px 10px;
+}
+
+
+.sticky_house .door{
+    background-color:chocolate;
+    border: solid 1px black;
+    width: 35px;
+    height: 65px;
+    margin: -52px 0px 0px 20px;
+}
+
+
+
