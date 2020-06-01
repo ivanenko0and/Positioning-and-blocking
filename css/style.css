@@ -10,7 +10,7 @@
 
 .sky{
     background-color:skyblue;
-    height: 770px;
+    height: 800px;
     min-width: 100%;
     margin: -8px -8px -50px -8px;
     box-sizing: border-box;
@@ -19,7 +19,7 @@
 
 .ground{
     background-color:chartreuse;
-    height: 280px;
+    height: 400px;
     min-width: 100%;
     margin:0px -8px -50px -8px;
     z-index: 1;
@@ -288,7 +288,7 @@
     position: sticky;
     margin: -230px 0px 0px 1500px;
     box-sizing: border-box;
-    top:500px;
+    top:400px;
 }
 
 
